@@ -1,0 +1,26 @@
+%热烈庆祝中华人民共和国成立70周年
+%铭记历史，缅怀先烈
+%不忘初心，牢记使命
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\definecolor{chinared}{RGB}{222,41,16}
+\definecolor{chinayellow}{RGB}{225,222,0}
+\usetikzlibrary{shapes.geometric}
+\begin{document}
+\begin{tikzpicture}
+\tikz \fill[chinared] (0, 0) rectangle (21, 14); %0.5
+%\draw (10.5,0) -- (10.5,14);
+%\draw (0,7) -- (21,7);
+%\draw[step = 0.7] ( 0,14 ) grid ( 10.5, 7);
+%\draw (3.5, 10.5) circle (2.1);
+%\draw (7, 12.6) circle (0.7);
+%\draw (8.4, 11.2) circle (0.7);
+%\draw (8.4, 9.1) circle (0.7);
+%\draw (7, 7.7) circle (0.7);
+\node[star,fill=chinayellow, minimum size=4.2cm, rotate=0, star point ratio=2.617,inner sep=0pt] at (3.5,10.5) {};
+\node[star,fill=chinayellow, minimum size=1.4cm, rotate=129.96, star point ratio=2.617,inner sep=0pt] at (7, 12.6) {};
+\node[star,fill=chinayellow, minimum size=1.4cm, rotate=98.13, star point ratio=2.617,inner sep=0pt] at (8.4, 11.2) {};
+\node[star,fill=chinayellow, minimum size=1.4cm, rotate=344.05, star point ratio=2.617,inner sep=0pt] at (8.4, 9.1) {};
+\node[star,fill=chinayellow, minimum size=1.4cm, rotate=38.66, star point ratio=2.617,inner sep=0pt] at (7, 7.7) {};
+\end{tikzpicture}
+\end{document}
